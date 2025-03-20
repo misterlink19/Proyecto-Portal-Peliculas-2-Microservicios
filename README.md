@@ -30,11 +30,11 @@ El proyecto se divide en dos microservicios principales:
 ## Instrucciones de Ejecución
 
 1.  Clonar el repositorio.
-2.  Crear la base de datos MySQL utilizando el script SQL `database/script.sql` proporcionado.
+2.  Ejecutar los scripts para crear la base de datos MySQL y sus datos  en la carpeta DB donde esta el scritp  `DB/Portal Pelicula V3.sql` y `DB/Datos Portal Pelicula V3.sql`.
 3.  Configurar las propiedades de conexión a la base de datos en los archivos `application.properties` de los microservicios.
 4.  Ejecutar los microservicios Spring Boot utilizando Maven:
-    * `cd backend && mvn spring-boot:run`
-    * `cd frontend && mvn spring-boot:run`
+    * `cd PortalPeliculas_Cliente && mvn spring-boot:run`
+    * `cd PortalPeliculas_Microservicio_ActorYPelicula && mvn spring-boot:run`
 5.  Acceder a la aplicación en `http://localhost:9000` (o otro puerto que quiera configurar).
 
 ## Posibles Mejoras Futuras
